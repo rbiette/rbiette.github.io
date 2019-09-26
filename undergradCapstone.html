@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Undergrad Capstone</title>
+
+    
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- refresh fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <img class="PC" src="img/pinecone-logo-blue(noText).png" alt="pinecone-logo-blue"> 
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Ryan Biette</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/ProfBWbackground.png" alt="profile picture">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <h1 style="padding-left: 50px" class="mb-0">Undergraduate Capstone Research 
+        <span class="text-primary">VR for Chronic Pain</span>
+    </h1>
+
+    <img class="img-fluid" src="img/CRPS.png" alt="CRPS banner">
+
+    <h3 style="padding: 15px">TakeAways</h3>
+    <p style="padding: 15px">This project challenged me to work in an interdisciplinary team, with competing deadlines, and with a real population with real pain. We conducted user interviews, task analyses, root cause analysis, usability testing, and more. We finished the year with a working product that we handed over to our sponsor, Dr. Nancy Baker, and she is currently using it for her research. <br> <a href="crpsFINALREPORT.pdf">I invite you to read the full final report here </a></p>
+
+
+    <h3 style="padding: 15px">Introduction</h3>
+    <p style="padding: 15px">Complex Regional Pain Syndrome (CRPS) is a condition that affects one or more of the limbs. It is believed to be caused by impairments of the peripheral and central nervous system, distorting the body’s perception of pain. Patients suffer from extreme discomfort, swelling, skin discoloration, and changing temperatures in the affected area. To treat patients, clinicians use a technique known as “mirror therapy”.</p>
+    <p style="padding: 15px"> To perform this technique, the clinician places a mirror at the centerline of the patient’s body, blocking the affected limb from the patient’s sight. This result is a reflective illusion of the affected limb, tricking the patient’s brain into thinking movement is occurring without pain. This technique has been proven to reduce pain symptoms and improve motor ability. </p>
+    <p style="padding: 15px"> CRPS currently has limited therapy options. While graded motor imagery is effective for some, for others it may present problems such as difficulty in creating a convincing illusion using a mirror, the need to be stationary, and the effectiveness from limb to limb may vary. </p>
+    <p style="padding: 15px">The purpose of this project is to create a tool for therapists to test whether the treatment of chronic pain through graded motor imagery therapy is effective in virtual reality. The system is composed of an immersive experience for the user and a control interface for the therapist to lead the therapy session. This was done using Unity, the Oculus Rift VR system, and a web application.
+    </p>
+
+    <h3 style="padding: 15px">User Research</h3>
+    <p style="padding: 15px"> Our team spent the first few months conducting research. The first step was to survey the literature on Complex Regional Pain Syndrome, mirror therapy, and using virtual reality in clinical settings. Next, we conducted structured interviews with the two user groups: CRPS patients and CRPS clinicians. </p>
+    <p style="padding: 15px"> Through interviews with clinicians, we gained insight on the progression of treatment. To Megan, a Philadelphia-based occupational therapist specializing in CRPS, the most important thing during treatment is making the patient feel in control. Pace and progression of treatment is dictated by the patient, not the clinician, and retreating to more basic tasks is not a failure. The therapy experience must be graded, starting with low-risk tasks and slowly progressing to more challenging ones. Additionally, Megan mentioned that CRPS patients typically have anxiety, so it is important to introduce new tasks and environments in a cautious and gradual manner. </p>
+    <p style="padding: 15px"> Through interviews with patients, we learned about the patient’s experience with mirror therapy. Amber, a CRPS patient, revealed to us that she often feels nauseated after her sessions, as mirror therapy can be an incredibly intense experience. Typically, she sits in an OT office along with six to seven other patients during sessions, and she expressed her wish to be alone when she is completing treatment since the tasks take maximum concentration. </p>
+
+         <h3 style="padding: 20px">User Needs</h3>
+     <h5 style="padding-left: 15px">Clinician</h5>
+      <li style="padding-left: 30px">Ability to see the patient’s virtual environment</li>
+      <li style="padding-left: 30px">Ability to control the patient’s experience in VR</li>
+      <li style="padding-left: 30px">Ability to communicate to the patient while they are in the virtual environment</li>
+      <li style="padding-left: 30px">Ability to prompt the patient to perform certain exercises</li>
+
+     <h5 style="padding: 15px">Patient</h5>
+      <li style="padding-left: 30px">Ability to perform physical therapy exercises while wearing the VR headset and tracking equipment </li>
+      <li style="padding-left: 30px">The VR equipment does not worsen patient’s pain </li>
+      <li style="padding-left: 30px">Ability to stop or pause the treatment and control progress in the VR physical therapy exercises</li>
+      <li style="padding-left: 30px">Ability to communicate with clinician during treatment</li>
+
+      <h4 style="padding: 20px">Product Requirements</h4>
+      <li style="padding-left: 30px">The product shall recreate motor graded imagery in a virtual environment </li>
+      <li style="padding-left: 30px">The product shall not worsen patient’s anxiety or condition</li>
+      <li style="padding-left: 30px">The product shall have two distinct interfaces (clinician and patient)</li>
+      <li style="padding-left: 30px">The product shall have controls in the clinician interface</li>
+      <li style="padding-left: 30px">The product shall have an escape/pause button for the patient</li>
+      <li style="padding-left: 30px">The product shall be able to be used while the patient and clinician communicate</li>
+    
+    <img class=img-fluid src="img/capFlow1.png"  width="85%" >
+    <img class=img-fluid src="img/capFlow2.png"  width="85%" >
+
+    <h3 style="padding: 15px">System Design</h3>
+    <p style="padding: 15px">
+    We integrated findings from interviews into the design of the virtual environment (patient interface) and the design of the web-based control portal (clinician interface). </p>
+    <p style="padding: 15px">Our team structured the virtual reality application so that the clinician facilitates the patient’s experience rather than completely controlling it. One window of the clinician interface shows the patient’s view through the oculus, along with a second window providing controls for graded motor imagery and scene selection. </p>
+
+    <img class=img-fluid src="img/crpsUI.png"  width="75%" >
+
+    <h3 style="padding: 15px">User Testing</h3>
+    <p style="padding: 15px">During our user testing, our team tested three different types of users. Our testing population included one clinician with expertise in the areas of CRPS and occupational therapy (OT), four OT students with significant CRPS experience, and four laypeople with little to no experience with CRPS. Most of the individuals we tested also had limited to no exposure to virtual reality. </p>
+
+     <h3 style="padding: 15px">Conclusions</h3>
+     <p style="padding-left: 15px"> Our results are promising but not conclusive in solving our problem statement. We sought to create a system that acts as a tool for therapists to test whether the treatment of chronic pain through graded motor imagery therapy is effective in virtual reality. We created a two sided user interface - one for the patient, and one side for the clinician. We met most of our project goals, but like any project there are always things we would like to keep working on. We handed a tool to Dr. Baker that can be used to test whether the enhancement of traditional mirror therapy through VR is effective in treating CRPS.  </p> 
+     <p style="padding-left: 15px"> Our research in building this system has proven that VR is an immersive strategy with the majority of our study participants saying that they felt comfortable in and convinced by our virtual reality system. In fact, one participant forgot that she was not moving the foot that she was seeing. These are extremely positive results that show the potential in our system. One caveat to our research is that we did not have permission to test on actual patients and thus we do not know exactly how CRPS patients will react to our system. We talked with clinicians, patients, and students studying the disease. But without actually testing with the clinical population, we can not be confident that our system will be well received. Our task was to create a system for our sponsor so that they could complete this research, so our team is excited to hear from Dr. Baker when she starts her research in the coming months. </p>
+
+        <img class=img-fluid src="img/crpsUI2.png"  width="85%" >
+
+  </body>
+
+  </html>
